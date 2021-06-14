@@ -22,7 +22,7 @@ client.once('ready', () => {
 client.on('guildMemberAdd', guildMember =>{
     let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'Unregistered Members');
 
-    guildMember.guild.channels.cache.get('841236479224840212').send(`Hey <@${guildMember.user.id}>, welcome to ~•𝐵𝑒𝓁𝓁𝑒 Â𝓂𝑒•~! check out <#841236954292420608> and <#841237225362030592> and submit your form in <#841237280726712370> :heart_exclamation: <@&${842298932616757268}>`)
+    guildMember.guild.channels.cache.get('841236479224840212').send(`Hey <@${guildMember.user.id}>, welcome to ~•𝐵𝑒𝓁𝓁𝑒 Â𝓂𝑒•~! check out <#841236954292420608> and <#841237225362030592> and submit your form in <#841237280726712370> :heart_exclamation: <@&${853890467720986654}>`)
 })
 
 client.on('message',message => {
