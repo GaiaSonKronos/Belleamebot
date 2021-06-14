@@ -41,13 +41,13 @@ client.on('message',message => {
         client.commands.get('ping').execute(message,args);
     }
     
-        else if(command){
-            (command == 'rules'){
-                client.commands.get('rules').execute(message,args,Discord);
+        // else if (command){
+        //     (command == 'rules'){
+        //         client.commands.get('rules').execute(message,args,Discord);
         }
     
     
-});
+)
 
 
 client.login(process.env.token);
