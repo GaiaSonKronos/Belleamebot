@@ -6,6 +6,11 @@ const prefix = '&';
 
 const fs = require('fs');
 
+const DiscordRPC = require('discord-rpc'); // Requiring the discord-rpc package.
+
+
+
+
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
@@ -35,6 +40,12 @@ client.on('message',message => {
         if (command == 'ping'){
         client.commands.get('ping').execute(message,args);
     }
+    
+        else if(command){
+            (command == 'rules'){
+                client.commands.get('rules').execute(message,args,Discord);
+        }
+    
     
 });
 
