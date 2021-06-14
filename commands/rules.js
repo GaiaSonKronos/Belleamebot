@@ -4,7 +4,7 @@ module.exports = {
     description: "rules",
     execute(message,args, Discord){
         const newEmbed = new Discord.MessageEmbed()
-        .setColor(#696969)
+        .setColor(#00FFFF)
         .setTitle('Rules')
         .setDescription('This is an embed for the server rules')
         .addFields(
