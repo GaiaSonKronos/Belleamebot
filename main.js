@@ -44,10 +44,10 @@ client.on('message',message => {
         // else if (command){
         //     (command == 'rules'){
         //         client.commands.get('rules').execute(message,args,Discord);
-        }
+        //}
     
     
-)
+})
 
 
 client.login(process.env.token);
